@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <!-- This site is optimized with the Yoast SEO plugin v14.9 - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>Fake Notifications - Envato</title>
+    
+
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel='stylesheet' id='googlefont-css'
+        href='https://fonts.googleapis.com/css2?family=Quicksand%3Awght%40400%3B500%3B600%3B700&#038;display=swap&#038;ver=5.5.1'
+        media='all' />
+    <link rel='stylesheet' id='wowstem-css' href='themestyle.min.css' media='all' />
+
+    <style id="wp-custom-css">
+        .home .column .card,
+        .archive .column .card {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body class="post-template-default single single-post postid-146 single-format-standard">
+
+    <div id="notification-1" class="notification">
+        <div class="notification-close">&times;</div>
+        <div class="notification-block">
+            <div class="notification-img"><span class="fas fa-user-circle"></span></div>
+            <div class="notification-text-block">
+                <div class="notification-title"></div>
+                <div class="notification-text"></div>
+            </div>
+        </div>
+    </div>
+    <div id="notification-2" class="notification">
+        <div class="notification-close">&times;</div>
+        <div class="notification-block">
+            <div class="notification-img"><span class="fas fa-shopping-basket"></span></div>
+            <div class="notification-text-block">
+                <div class="notification-title">New Order</div>
+                <div class="notification-text"></div>
+            </div>
+        </div>
+    </div>
+    <div id="notification-3" class="notification">
+        <div class="notification-close">&times;</div>
+        <div class="notification-block">
+            <div class="notification-img"><span class="fas fa-money-bill-wave"></span></div>
+            <div class="notification-text-block">
+                <div class="notification-title">JackPot</div>
+                <div class="notification-text"></div>
+            </div>
+        </div>
+    </div>
+    <div id="notification-4" class="notification">
+        <div class="notification-close">&times;</div>
+        <div class="notification-block">
+            <div class="notification-img"><span class="fas fa-user-plus"></span></div>
+            <div class="notification-text-block">
+                <div class="notification-title">New registration</div>
+                <div class="notification-text">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <link rel='stylesheet' id='wow-herd-effects-pro-css' href='wownotifcation.css' media='all' />
+    <style id='wow-herd-effects-pro-inline-css'>
+        #notification-1 {
+            top: 10px;
+            right: 3px;
+            border-radius: 5px;
+            box-shadow: 0 0 3px 3px #00aff0;
+        }
+
+        #notification-1 .notification-close {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        #notification-1 .notification-img {
+            width: 100px;
+            background: #00aff0;
+            border-radius: 5px 0 0 5px;
+            border-top: 0 none #ffffff;
+            border-bottom: 0 none #ffffff;
+            border-left: 0 none #ffffff;
+        }
+
+        #notification-1 .notification-img img {
+            width: 60pxpx;
+        }
+
+        #notification-1 .notification-img span {
+            font-size: 60px;
+            color: #ffffff;
+        }
+
+        #notification-1 .notification-text-block {
+            background: #ffffff;
+            width: 200px;
+            height: auto;
+            border-radius: 0 5px 5px 0;
+            border-top: 0 none #ffffff;
+            border-bottom: 0 none #ffffff;
+            border-right: 0 none #ffffff;
+        }
+
+        #notification-1 .notification-title {
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: bolder;
+            font-style: normal;
+            line-height: 32px;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        #notification-1 .notification-text {
+            font-family: Georgia;
+            font-size: 13px;
+            line-height: 17px;
+            color: #000000;
+        }
+
+        #notification-2 {
+            top: 20px;
+            left: 10px;
+            border-radius: 3px;
+            box-shadow: none;
+        }
+
+        #notification-2 .notification-close {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        #notification-2 .notification-img {
+            width: 60px;
+            background: #81d742;
+            border-radius: 3px 0 0 3px;
+            border-top: 2px dotted #800000;
+            border-bottom: 2px dotted #800000;
+            border-left: 2px dotted #800000;
+        }
+
+        #notification-2 .notification-img img {
+            width: 40pxpx;
+        }
+
+        #notification-2 .notification-img span {
+            font-size: 40px;
+            color: #ffffff;
+        }
+
+        #notification-2 .notification-text-block {
+            background: #ffffff;
+            width: 200px;
+            height: auto;
+            border-radius: 0 3px 3px 0;
+            border-top: 2px dotted #800000;
+            border-bottom: 2px dotted #800000;
+            border-right: 2px dotted #800000;
+        }
+
+        #notification-2 .notification-title {
+            font-family: Comic Sans MS;
+            font-size: 20px;
+            font-weight: bolder;
+            font-style: normal;
+            line-height: 32px;
+            text-align: left;
+            color: #800000;
+        }
+
+        #notification-2 .notification-text {
+            font-family: Georgia;
+            font-size: 13px;
+            line-height: 15px;
+            color: #000000;
+        }
+
+        #notification-3 {
+            bottom: 10px;
+            left: 10px;
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        #notification-3 .notification-close {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        #notification-3 .notification-img {
+            width: 80px;
+            background: #ffd700;
+            border-radius: 0 0 0 0;
+            border-top: 2px solid #ffd700;
+            border-bottom: 2px solid #ffd700;
+            border-left: 2px solid #ffd700;
+        }
+
+        #notification-3 .notification-img img {
+            width: 40pxpx;
+        }
+
+        #notification-3 .notification-img span {
+            font-size: 40px;
+            color: #ffffff;
+        }
+
+        #notification-3 .notification-text-block {
+            background: #000000;
+            width: 200px;
+            height: auto;
+            border-radius: 0 0 0 0;
+            border-top: 2px solid #ffd700;
+            border-bottom: 2px solid #ffd700;
+            border-right: 2px solid #ffd700;
+        }
+
+        #notification-3 .notification-title {
+            font-family: Arial;
+            font-size: 24px;
+            font-weight: bolder;
+            font-style: normal;
+            line-height: 26px;
+            text-align: left;
+            color: #ffd700;
+        }
+
+        #notification-3 .notification-text {
+            font-family: Times New Roman;
+            font-size: 14px;
+            line-height: 21px;
+            color: #ffffff;
+        }
+
+        #notification-4 {
+            bottom: 10px;
+            right: 10px;
+            border-radius: 5px;
+            box-shadow: none;
+        }
+
+        #notification-4 .notification-close {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        #notification-4 .notification-img {
+            width: 80px;
+            background: #8cd9f0;
+            border-radius: 5px 0 0 5px;
+            border-top: 0 solid #8cd9f0;
+            border-bottom: 0 solid #8cd9f0;
+            border-left: 0 solid #8cd9f0;
+        }
+
+        #notification-4 .notification-img img {
+            width: 40pxpx;
+        }
+
+        #notification-4 .notification-img span {
+            font-size: 40px;
+            color: #0000ff;
+        }
+
+        #notification-4 .notification-text-block {
+            background: #0000ff;
+            width: 250px;
+            height: auto;
+            border-radius: 0 5px 5px 0;
+            border-top: 0 solid #8cd9f0;
+            border-bottom: 0 solid #8cd9f0;
+            border-right: 0 solid #8cd9f0;
+        }
+
+        #notification-4 .notification-title {
+            font-family: Times New Roman;
+            font-size: 18px;
+            font-weight: bolder;
+            font-style: normal;
+            line-height: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        #notification-4 .notification-text {
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 18px;
+            color: #ffffff;
+        }
+
+        @media only screen and (max-width: 768px) {
+            #notification-4 {
+                display: none !important;
+            }
+        }
+    </style>
+    <link rel='stylesheet' id='wow-herd-effects-pro-animate-css' href='animate.min.css' media='all' />
+    <link rel='stylesheet' id='wp-coder-1-css-0-css'
+        href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' media='all' />
+
+    <link rel='stylesheet' id='wp-coder-1-css-1-css' href='custom.min.css' media='all' />
+    <script src='script.min.js' id='wowstem-js'></script>
+    <script src='jquery.js' id='jquery-core-js'></script>
+    <script id='wow-herd-effects-pro-js-extra'>
+        var notification_1 = {
+            "Variable1": ["David", "John", "Paul", "Mark", "James", "Andrew", "Scott", "Steven", "Robert",
+                "Stephen", "William", "Craig", "Michael", "Stuart", "Christopher", "Alan", "Colin", "Brian",
+                "Kevin", "Gary", "Richard", "Derek", "Martin", "Thomas", "Neil", "Barry", "Ian", "Jason",
+                "Iain", "Gordon", "Alexander", "Graeme", "Peter", "Darren", "Graham", "George", "Kenneth",
+                "Allan", "Simon", "Douglas", "Keith", "Lee", "Anthony", "Grant", "Ross", "Jonathan", "Gavin",
+                "Nicholas", "Joseph", "Stewart", "Daniel", "Edward", "Matthew", "Donald", "Fraser", "Garry",
+                "Malcolm", "Charles", "Duncan", "Alistair", "Raymond", "Philip", "Ronald", "Ewan", "Ryan",
+                "Francis", "Bruce", "Patrick", "Alastair", "Bryan", "Marc", "Jamie", "Hugh", "Euan", "Gerard",
+                "Sean", "Wayne", "Adam", "Calum", "Alasdair", "Robin", "Greig", "Angus", "Russell", "Cameron",
+                "Roderick", "Norman", "Murray", "Gareth", "Dean", "Eric", "Adrian", "Gregor", "Samuel",
+                "Gerald", "Henry", "Justin", "Benjamin", "Shaun", "Callum", "Campbell", "Frank", "Roy",
+                "Timothy", "Glen", "Marcus", "Hamish", "Niall", "Barrie", "Liam", "Brendan", "Terence", "Greg",
+                "Leslie", "Lindsay", "Trevor", "Vincent", "Christian", "Lewis", "Rory", "Antony", "Fergus",
+                "Roger", "Arthur", "Dominic", "Ewen", "Jon", "Owen", "Gregory", "Jeffrey", "Terry", "Damian",
+                "Geoffrey", "Harry", "Walter", "Bernard", "Desmond", "Jack", "Aaron", "Archibald", "Blair",
+                "Jeremy", "Nathan", "Alister", "Dale", "Dylan", "Glenn", "Julian", "Leon", "Allen", "Martyn",
+                "Nigel", "Alisdair", "Denis", "Drew", "Evan", "Phillip", "Frazer", "Guy", "Laurence",
+                "Lawrence", "Magnus", "Crawford", "Finlay", "Frederick", "Gregg", "Karl", "Kerr", "Mohammed",
+                "Rodney", "Victor", "Carl", "Daryl", "Don", "Edwin", "Erik", "Grahame", "Ivan", "Kyle", "Leigh",
+                "Lorne", "Maurice", "Murdo", "Nicolas", "Steve", "Allister", "Clark", "Darran", "Dennis",
+                "Elliot", "Leonard", "Nairn", "Scot", "Stefan", "Toby", "Warren", "Billy", "Clive", "Damien",
+                "Louis", "Mohammad", "Neill", "Noel", "Ralph", "Sandy", "Albert", "Alun", "Brett", "Clifford",
+                "Eoin", "Glyn", "Imran", "Ivor", "Johnathan", "Kevan", "Neal", "Oliver", "Robbie", "Roland",
+                "Stanley", "Aidan", "Antonio", "Austin", "Bradley", "Cornelius", "Darrin", "Derrick", "Innes",
+                "Kristian", "Lachlan", "Mathew", "Moray", "Nicol", "Shane", "Tony", "Brent", "Findlay",
+                "Forbes", "Gilbert", "Giles", "Jay", "Kelvin", "Leighton", "Marco", "Omar", "Roddy", "Tom",
+                "Abdul", "Alfred", "Alick", "Ashley", "Bryce", "Conrad", "Darryl", "Eugene", "Harold", "Harvey",
+                "Hector", "Jody", "Kieran", "Kirk", "Kris", "Marshall", "Muhammad", "Ramsay", "Ray", "Rodger",
+                "Seumas", "Tommy", "Wai", "Alex", "Ali", "Andrea", "Archie", "Daren", "Derick", "Gideon", "Jan",
+                "Juan", "Kerry", "Kieron", "Luke", "Lyall", "Manus", "Marvin", "Morgan", "Muir", "Myles",
+                "Ronnie", "Rowan", "Rupert", "Spencer", "Stephan", "Struan", "Torquil", "Wallace", "Aftab",
+                "Alain", "Alec", "Alvin", "Anton", "Arran", "Arron", "Austen", "Aynsley", "Benedict", "Chad",
+                "Chun", "Clarke", "Damon", "Danny", "Darron", "Declan", "Deryck", "Edmond", "Edmund", "Jacob",
+                "Johnston", "Keiron", "Kennedy", "Khalil", "Kristofer", "Laurie", "Lloyd", "Mario", "Max",
+                "Maxwell", "Mitchell", "Morris", "Nathaniel", "Naveed", "Neville", "Nickolas", "Piers",
+                "Quentin", "Rennie", "Reuben", "Riccardo", "Roberto", "Ruaraidh", "Ruaridh", "Stefano", "Symon",
+                "Tobias", "Todd", "Abid", "Adnan", "Aeneas", "Aiden", "Ainslie", "Ajay", "Alessandro", "Alyn",
+                "Anderson", "Andre", "Ashok", "Asif", "Atholl", "Bjorn", "Brandon", "Brydon", "Bryn", "Caine",
+                "Calvin", "Carlo", "Ceri", "Chris", "Christien", "Claudio", "Clayton", "Clint", "Connell",
+                "Cyril", "Damion", "Darin", "Dario", "Darroch", "Deryk", "Dirk", "Donovan", "Dustin", "Eamonn",
+                "Edgar", "Elliott", "Elton", "Emlyn", "Eoghan", "Erlend", "Farooq", "Garth", "Geoff", "Gerrard",
+                "Gerry", "Giancarlo", "Gidon", "Grierson", "Hamilton", "Hans", "Hendry", "Howard", "Irvine",
+                "Jaimie", "Jarad", "Jayson", "Jean", "Jeff", "Jerome", "Joel", "Jude", "Kane", "Karan", "Karim",
+                "Kashif", "Keiran", "Kendon", "Kent", "Kwok", "Laith", "Lauchlan", "Leo", "Leyton", "Lindsey",
+                "Logan", "Lorn", "Lyle", "Mason", "Mervyn", "Michel", "Mubarak", "Mungo", "Murdoch",
+                "Nathanael", "Neall", "Nickie", "Nicky", "Nikki", "Nikolas", "Paolo", "Perry", "Ranald",
+                "Rehan", "Ricky", "Rikki", "Ritchie", "Rizwan", "Robertson", "Roderic", "Rolf", "Ronan",
+                "Rowland", "Sam", "Scotland", "Seth", "Shahid", "Shakeel", "Sidney", "Sinclair", "Sonny",
+                "Taylor", "Tin", "Tomas", "Travis", "Tristan", "Vernon", "Vince", "Waheed", "Waseem", "Wei",
+                "Wilson", "Yan", "Zak", "Aamir", "Abdullahi", "Abdulrazak", "Abraham", "Adebayo", "Adel\r\n"
+            ],
+            "Variable2": ["New York", "Los Angeles", "Chicago ", "Houston ", "Phoenix ", "Philadelphia ",
+                "San Antonio ", "San Diego ", "Dallas ", "San Jose ", "Detroit ", "Jacksonville ",
+                "Indianapolis", "San Francisco ", "Columbus ", "Austin ", "Memphis ", "Fort Worth ",
+                "Baltimore ", "Charlotte ", "El Paso ", "Boston ", "Seattle ", "Washington ", "Milwaukee ",
+                "Denver ", "Louisville\/Jefferson County ", "Las Vegas ", "Nashville-Davidson ",
+                "Oklahoma City ", "Portland ", "Tucson ", "Albuquerque ", "Atlanta ", "Long Beach ", "Fresno ",
+                "Sacramento ", "Mesa ", "Kansas City ", "Cleveland ", "Virginia Beach ", "Omaha ", "Miami ",
+                "Oakland ", "Tulsa ", "Honolulu ", "Minneapolis ", "Colorado Springs ", "Arlington ",
+                "Wichita ", "Raleigh ", "St. Louis ", "Santa Ana ", "Anaheim ", "Tampa ", "Cincinnati ",
+                "Pittsburgh ", "Bakersfield ", "Aurora ", "Toledo ", "Riverside ", "Stockton ",
+                "Corpus Christi ", "Newark ", "Anchorage", "Buffalo ", "St. Paul ", "Lexington-Fayette",
+                "Plano ", "Fort Wayne ", "St. Petersburg ", "Glendale ", "Jersey City ", "Lincoln ",
+                "Henderson ", "Chandler ", "Greensboro ", "Scottsdale ", "Baton Rouge ", "Birmingham ",
+                "Norfolk ", "Madison ", "New Orleans ", "Chesapeake ", "Orlando ", "Garland ", "Hialeah ",
+                "Laredo ", "Chula Vista ", "Lubbock ", "Reno ", "Akron ", "Durham ", "Rochester ", "Modesto ",
+                "Montgomery ", "Fremont ", "Shreveport ", "Arlington", "Glendale\r\n"
+            ],
+            "Variable3": ["has subscribed to Dmytro Lobov on Youtube", " has subscribed to email list",
+                " has just sent a message", " has just sent liked Wow-Estore at Facebook",
+                " sent a Whatsapp message", " sent a Facebook message"
+            ],
+            "Variable4": ["New Contact", " New Subscriber", " New Action"],
+            "Variable5": [],
+            "Amount": ["1", "5"],
+            "Content": "<p><span style=\"color: #00ff00;\"><strong>[variable4]<\/strong><\/span><\/p>\r\n<p>Dear <strong><span style=\"color: #ff0000;\">[variable1]<\/span><\/strong> from <strong><em>[variable2]<\/em><\/strong>\u00a0 [variable3]<\/p>\r\n<p style=\"text-align: right;\">[amount] minutes ago.<\/p>",
+            "Show": ["stable", "3", 0],
+            "Close": "7",
+            "AnimationEffectOpen": "fadeInRight",
+            "AnimationEffectClose": "fadeOutRight",
+            "Number": "5",
+            "Link": ["false", "", "_self", "false"],
+            "CloseButton": "false"
+        };
+        var notification_2 = {
+            "Variable1": ["David", "John", "Paul", "Mark", "James", "Andrew", "Scott", "Steven", "Robert",
+                "Stephen", "William", "Craig", "Michael", "Stuart", "Christopher", "Alan", "Colin", "Brian",
+                "Kevin", "Gary", "Richard", "Derek", "Martin", "Thomas", "Neil", "Barry", "Ian", "Jason",
+                "Iain", "Gordon", "Alexander", "Graeme", "Peter", "Darren", "Graham", "George", "Kenneth",
+                "Allan", "Simon", "Douglas", "Keith", "Lee", "Anthony", "Grant", "Ross", "Jonathan", "Gavin",
+                "Nicholas", "Joseph", "Stewart", "Daniel", "Edward", "Matthew", "Donald", "Fraser", "Garry",
+                "Malcolm", "Charles", "Duncan", "Alistair", "Raymond", "Philip", "Ronald", "Ewan", "Ryan",
+                "Francis", "Bruce", "Patrick", "Alastair", "Bryan", "Marc", "Jamie", "Hugh", "Euan", "Gerard",
+                "Sean", "Wayne", "Adam", "Calum", "Alasdair", "Robin", "Greig", "Angus", "Russell", "Cameron",
+                "Roderick", "Norman", "Murray", "Gareth", "Dean", "Eric", "Adrian", "Gregor", "Samuel",
+                "Gerald", "Henry", "Justin", "Benjamin", "Shaun", "Callum", "Campbell", "Frank", "Roy",
+                "Timothy", "Glen", "Marcus", "Hamish", "Niall", "Barrie", "Liam", "Brendan", "Terence", "Greg",
+                "Leslie", "Lindsay", "Trevor", "Vincent", "Christian", "Lewis", "Rory", "Antony", "Fergus",
+                "Roger", "Arthur", "Dominic", "Ewen", "Jon", "Owen", "Gregory", "Jeffrey", "Terry", "Damian",
+                "Geoffrey", "Harry", "Walter", "Bernard", "Desmond", "Jack", "Aaron", "Archibald", "Blair",
+                "Jeremy", "Nathan", "Alister", "Dale", "Dylan", "Glenn", "Julian", "Leon", "Allen", "Martyn",
+                "Nigel", "Alisdair", "Denis", "Drew", "Evan", "Phillip", "Frazer", "Guy", "Laurence",
+                "Lawrence", "Magnus", "Crawford", "Finlay", "Frederick", "Gregg", "Karl", "Kerr", "Mohammed",
+                "Rodney", "Victor", "Carl", "Daryl", "Don", "Edwin", "Erik", "Grahame", "Ivan", "Kyle", "Leigh",
+                "Lorne", "Maurice", "Murdo", "Nicolas", "Steve", "Allister", "Clark", "Darran", "Dennis",
+                "Elliot", "Leonard", "Nairn", "Scot", "Stefan", "Toby", "Warren", "Billy", "Clive", "Damien",
+                "Louis", "Mohammad", "Neill", "Noel", "Ralph", "Sandy", "Albert", "Alun", "Brett", "Clifford",
+                "Eoin", "Glyn", "Imran", "Ivor", "Johnathan", "Kevan", "Neal", "Oliver", "Robbie", "Roland",
+                "Stanley", "Aidan", "Antonio", "Austin", "Bradley", "Cornelius", "Darrin", "Derrick", "Innes",
+                "Kristian", "Lachlan", "Mathew", "Moray", "Nicol", "Shane", "Tony", "Brent", "Findlay",
+                "Forbes", "Gilbert", "Giles", "Jay", "Kelvin", "Leighton", "Marco", "Omar", "Roddy", "Tom",
+                "Abdul", "Alfred", "Alick", "Ashley", "Bryce", "Conrad", "Darryl", "Eugene", "Harold", "Harvey",
+                "Hector", "Jody", "Kieran", "Kirk", "Kris", "Marshall", "Muhammad", "Ramsay", "Ray", "Rodger",
+                "Seumas", "Tommy", "Wai", "Alex", "Ali", "Andrea", "Archie", "Daren", "Derick", "Gideon", "Jan",
+                "Juan", "Kerry", "Kieron", "Luke", "Lyall", "Manus", "Marvin", "Morgan", "Muir", "Myles",
+                "Ronnie", "Rowan", "Rupert", "Spencer", "Stephan", "Struan", "Torquil", "Wallace", "Aftab",
+                "Alain", "Alec", "Alvin", "Anton", "Arran", "Arron", "Austen", "Aynsley", "Benedict", "Chad",
+                "Chun", "Clarke", "Damon", "Danny", "Darron", "Declan", "Deryck", "Edmond", "Edmund", "Jacob",
+                "Johnston", "Keiron", "Kennedy", "Khalil", "Kristofer", "Laurie", "Lloyd", "Mario", "Max",
+                "Maxwell", "Mitchell", "Morris", "Nathaniel", "Naveed", "Neville", "Nickolas", "Piers",
+                "Quentin", "Rennie", "Reuben", "Riccardo", "Roberto", "Ruaraidh", "Ruaridh", "Stefano", "Symon",
+                "Tobias", "Todd", "Abid", "Adnan", "Aeneas", "Aiden", "Ainslie", "Ajay", "Alessandro", "Alyn",
+                "Anderson", "Andre", "Ashok", "Asif", "Atholl", "Bjorn", "Brandon", "Brydon", "Bryn", "Caine",
+                "Calvin", "Carlo", "Ceri", "Chris", "Christien", "Claudio", "Clayton", "Clint", "Connell",
+                "Cyril", "Damion", "Darin", "Dario", "Darroch", "Deryk", "Dirk", "Donovan", "Dustin", "Eamonn",
+                "Edgar", "Elliott", "Elton", "Emlyn", "Eoghan", "Erlend", "Farooq", "Garth", "Geoff", "Gerrard",
+                "Gerry", "Giancarlo", "Gidon", "Grierson", "Hamilton", "Hans", "Hendry", "Howard", "Irvine",
+                "Jaimie", "Jarad", "Jayson", "Jean", "Jeff", "Jerome", "Joel", "Jude", "Kane", "Karan", "Karim",
+                "Kashif", "Keiran", "Kendon", "Kent", "Kwok", "Laith", "Lauchlan", "Leo", "Leyton", "Lindsey",
+                "Logan", "Lorn", "Lyle", "Mason", "Mervyn", "Michel", "Mubarak", "Mungo", "Murdoch",
+                "Nathanael", "Neall", "Nickie", "Nicky", "Nikki", "Nikolas", "Paolo", "Perry", "Ranald",
+                "Rehan", "Ricky", "Rikki", "Ritchie", "Rizwan", "Robertson", "Roderic", "Rolf", "Ronan",
+                "Rowland", "Sam", "Scotland", "Seth", "Shahid", "Shakeel", "Sidney", "Sinclair", "Sonny",
+                "Taylor", "Tin", "Tomas", "Travis", "Tristan", "Vernon", "Vince", "Waheed", "Waseem", "Wei",
+                "Wilson", "Yan", "Zak", "Aamir", "Abdullahi", "Abdulrazak", "Abraham", "Adebayo", "Adel\r\n"
+            ],
+            "Variable2": ["New York", "Los Angeles", "Chicago ", "Houston ", "Phoenix ", "Philadelphia ",
+                "San Antonio ", "San Diego ", "Dallas ", "San Jose ", "Detroit ", "Jacksonville ",
+                "Indianapolis", "San Francisco ", "Columbus ", "Austin ", "Memphis ", "Fort Worth ",
+                "Baltimore ", "Charlotte ", "El Paso ", "Boston ", "Seattle ", "Washington ", "Milwaukee ",
+                "Denver ", "Louisville\/Jefferson County ", "Las Vegas ", "Nashville-Davidson ",
+                "Oklahoma City ", "Portland ", "Tucson ", "Albuquerque ", "Atlanta ", "Long Beach ", "Fresno ",
+                "Sacramento ", "Mesa ", "Kansas City ", "Cleveland ", "Virginia Beach ", "Omaha ", "Miami ",
+                "Oakland ", "Tulsa ", "Honolulu ", "Minneapolis ", "Colorado Springs ", "Arlington ",
+                "Wichita ", "Raleigh ", "St. Louis ", "Santa Ana ", "Anaheim ", "Tampa ", "Cincinnati ",
+                "Pittsburgh ", "Bakersfield ", "Aurora ", "Toledo ", "Riverside ", "Stockton ",
+                "Corpus Christi ", "Newark ", "Anchorage", "Buffalo ", "St. Paul ", "Lexington-Fayette",
+                "Plano ", "Fort Wayne ", "St. Petersburg ", "Glendale ", "Jersey City ", "Lincoln ",
+                "Henderson ", "Chandler ", "Greensboro ", "Scottsdale ", "Baton Rouge ", "Birmingham ",
+                "Norfolk ", "Madison ", "New Orleans ", "Chesapeake ", "Orlando ", "Garland ", "Hialeah ",
+                "Laredo ", "Chula Vista ", "Lubbock ", "Reno ", "Akron ", "Durham ", "Rochester ", "Modesto ",
+                "Montgomery ", "Fremont ", "Shreveport ", "Arlington", "Glendale\r\n"
+            ],
+            "Variable3": ["Side Menu", " Fake Notifications", " Modal Windows", " Float Menu", " Bubble Menu",
+                " Countdowns"
+            ],
+            "Variable4": ["WordPress plugin", " jQuery"],
+            "Variable5": [],
+            "Amount": ["1", "30"],
+            "Content": "<p><strong>[variable1]<\/strong> from <strong><em>[variable2]<\/em><\/strong>\u00a0 bought <span style=\"color: #ff0000;\">[variable3]<\/span><\/p>\r\n<p style=\"text-align: right;\"><em><small>[amount] minutes ago.<\/small><\/em><\/p>",
+            "Show": ["random", "1", "10"],
+            "Close": "5",
+            "AnimationEffectOpen": "flipInX",
+            "AnimationEffectClose": "flipOutY",
+            "Number": "5",
+            "Link": ["false", "", "_self", "false"],
+            "CloseButton": "false"
+        };
+        var notification_3 = {
+            "Variable1": ["David", "John", "Paul", "Mark", "James", "Andrew", "Scott", "Steven", "Robert",
+                "Stephen", "William", "Craig", "Michael", "Stuart", "Christopher", "Alan", "Colin", "Brian",
+                "Kevin", "Gary", "Richard", "Derek", "Martin", "Thomas", "Neil", "Barry", "Ian", "Jason",
+                "Iain", "Gordon", "Alexander", "Graeme", "Peter", "Darren", "Graham", "George", "Kenneth",
+                "Allan", "Simon", "Douglas", "Keith", "Lee", "Anthony", "Grant", "Ross", "Jonathan", "Gavin",
+                "Nicholas", "Joseph", "Stewart", "Daniel", "Edward", "Matthew", "Donald", "Fraser", "Garry",
+                "Malcolm", "Charles", "Duncan", "Alistair", "Raymond", "Philip", "Ronald", "Ewan", "Ryan",
+                "Francis", "Bruce", "Patrick", "Alastair", "Bryan", "Marc", "Jamie", "Hugh", "Euan", "Gerard",
+                "Sean", "Wayne", "Adam", "Calum", "Alasdair", "Robin", "Greig", "Angus", "Russell", "Cameron",
+                "Roderick", "Norman", "Murray", "Gareth", "Dean", "Eric", "Adrian", "Gregor", "Samuel",
+                "Gerald", "Henry", "Justin", "Benjamin", "Shaun", "Callum", "Campbell", "Frank", "Roy",
+                "Timothy", "Glen", "Marcus", "Hamish", "Niall", "Barrie", "Liam", "Brendan", "Terence", "Greg",
+                "Leslie", "Lindsay", "Trevor", "Vincent", "Christian", "Lewis", "Rory", "Antony", "Fergus",
+                "Roger", "Arthur", "Dominic", "Ewen", "Jon", "Owen", "Gregory", "Jeffrey", "Terry", "Damian",
+                "Geoffrey", "Harry", "Walter", "Bernard", "Desmond", "Jack", "Aaron", "Archibald", "Blair",
+                "Jeremy", "Nathan", "Alister", "Dale", "Dylan", "Glenn", "Julian", "Leon", "Allen", "Martyn",
+                "Nigel", "Alisdair", "Denis", "Drew", "Evan", "Phillip", "Frazer", "Guy", "Laurence",
+                "Lawrence", "Magnus", "Crawford", "Finlay", "Frederick", "Gregg", "Karl", "Kerr", "Mohammed",
+                "Rodney", "Victor", "Carl", "Daryl", "Don", "Edwin", "Erik", "Grahame", "Ivan", "Kyle", "Leigh",
+                "Lorne", "Maurice", "Murdo", "Nicolas", "Steve", "Allister", "Clark", "Darran", "Dennis",
+                "Elliot", "Leonard", "Nairn", "Scot", "Stefan", "Toby", "Warren", "Billy", "Clive", "Damien",
+                "Louis", "Mohammad", "Neill", "Noel", "Ralph", "Sandy", "Albert", "Alun", "Brett", "Clifford",
+                "Eoin", "Glyn", "Imran", "Ivor", "Johnathan", "Kevan", "Neal", "Oliver", "Robbie", "Roland",
+                "Stanley", "Aidan", "Antonio", "Austin", "Bradley", "Cornelius", "Darrin", "Derrick", "Innes",
+                "Kristian", "Lachlan", "Mathew", "Moray", "Nicol", "Shane", "Tony", "Brent", "Findlay",
+                "Forbes", "Gilbert", "Giles", "Jay", "Kelvin", "Leighton", "Marco", "Omar", "Roddy", "Tom",
+                "Abdul", "Alfred", "Alick", "Ashley", "Bryce", "Conrad", "Darryl", "Eugene", "Harold", "Harvey",
+                "Hector", "Jody", "Kieran", "Kirk", "Kris", "Marshall", "Muhammad", "Ramsay", "Ray", "Rodger",
+                "Seumas", "Tommy", "Wai", "Alex", "Ali", "Andrea", "Archie", "Daren", "Derick", "Gideon", "Jan",
+                "Juan", "Kerry", "Kieron", "Luke", "Lyall", "Manus", "Marvin", "Morgan", "Muir", "Myles",
+                "Ronnie", "Rowan", "Rupert", "Spencer", "Stephan", "Struan", "Torquil", "Wallace", "Aftab",
+                "Alain", "Alec", "Alvin", "Anton", "Arran", "Arron", "Austen", "Aynsley", "Benedict", "Chad",
+                "Chun", "Clarke", "Damon", "Danny", "Darron", "Declan", "Deryck", "Edmond", "Edmund", "Jacob",
+                "Johnston", "Keiron", "Kennedy", "Khalil", "Kristofer", "Laurie", "Lloyd", "Mario", "Max",
+                "Maxwell", "Mitchell", "Morris", "Nathaniel", "Naveed", "Neville", "Nickolas", "Piers",
+                "Quentin", "Rennie", "Reuben", "Riccardo", "Roberto", "Ruaraidh", "Ruaridh", "Stefano", "Symon",
+                "Tobias", "Todd", "Abid", "Adnan", "Aeneas", "Aiden", "Ainslie", "Ajay", "Alessandro", "Alyn",
+                "Anderson", "Andre", "Ashok", "Asif", "Atholl", "Bjorn", "Brandon", "Brydon", "Bryn", "Caine",
+                "Calvin", "Carlo", "Ceri", "Chris", "Christien", "Claudio", "Clayton", "Clint", "Connell",
+                "Cyril", "Damion", "Darin", "Dario", "Darroch", "Deryk", "Dirk", "Donovan", "Dustin", "Eamonn",
+                "Edgar", "Elliott", "Elton", "Emlyn", "Eoghan", "Erlend", "Farooq", "Garth", "Geoff", "Gerrard",
+                "Gerry", "Giancarlo", "Gidon", "Grierson", "Hamilton", "Hans", "Hendry", "Howard", "Irvine",
+                "Jaimie", "Jarad", "Jayson", "Jean", "Jeff", "Jerome", "Joel", "Jude", "Kane", "Karan", "Karim",
+                "Kashif", "Keiran", "Kendon", "Kent", "Kwok", "Laith", "Lauchlan", "Leo", "Leyton", "Lindsey",
+                "Logan", "Lorn", "Lyle", "Mason", "Mervyn", "Michel", "Mubarak", "Mungo", "Murdoch",
+                "Nathanael", "Neall", "Nickie", "Nicky", "Nikki", "Nikolas", "Paolo", "Perry", "Ranald",
+                "Rehan", "Ricky", "Rikki", "Ritchie", "Rizwan", "Robertson", "Roderic", "Rolf", "Ronan",
+                "Rowland", "Sam", "Scotland", "Seth", "Shahid", "Shakeel", "Sidney", "Sinclair", "Sonny",
+                "Taylor", "Tin", "Tomas", "Travis", "Tristan", "Vernon", "Vince", "Waheed", "Waseem", "Wei",
+                "Wilson", "Yan", "Zak", "Aamir", "Abdullahi", "Abdulrazak", "Abraham", "Adebayo", "Adel\r\n"
+            ],
+            "Variable2": ["New York", "Los Angeles", "Chicago ", "Houston ", "Phoenix ", "Philadelphia ",
+                "San Antonio ", "San Diego ", "Dallas ", "San Jose ", "Detroit ", "Jacksonville ",
+                "Indianapolis", "San Francisco ", "Columbus ", "Austin ", "Memphis ", "Fort Worth ",
+                "Baltimore ", "Charlotte ", "El Paso ", "Boston ", "Seattle ", "Washington ", "Milwaukee ",
+                "Denver ", "Louisville\/Jefferson County ", "Las Vegas ", "Nashville-Davidson ",
+                "Oklahoma City ", "Portland ", "Tucson ", "Albuquerque ", "Atlanta ", "Long Beach ", "Fresno ",
+                "Sacramento ", "Mesa ", "Kansas City ", "Cleveland ", "Virginia Beach ", "Omaha ", "Miami ",
+                "Oakland ", "Tulsa ", "Honolulu ", "Minneapolis ", "Colorado Springs ", "Arlington ",
+                "Wichita ", "Raleigh ", "St. Louis ", "Santa Ana ", "Anaheim ", "Tampa ", "Cincinnati ",
+                "Pittsburgh ", "Bakersfield ", "Aurora ", "Toledo ", "Riverside ", "Stockton ",
+                "Corpus Christi ", "Newark ", "Anchorage", "Buffalo ", "St. Paul ", "Lexington-Fayette",
+                "Plano ", "Fort Wayne ", "St. Petersburg ", "Glendale ", "Jersey City ", "Lincoln ",
+                "Henderson ", "Chandler ", "Greensboro ", "Scottsdale ", "Baton Rouge ", "Birmingham ",
+                "Norfolk ", "Madison ", "New Orleans ", "Chesapeake ", "Orlando ", "Garland ", "Hialeah ",
+                "Laredo ", "Chula Vista ", "Lubbock ", "Reno ", "Akron ", "Durham ", "Rochester ", "Modesto ",
+                "Montgomery ", "Fremont ", "Shreveport ", "Arlington", "Glendale\r\n"
+            ],
+            "Variable3": ["Side Menu", " Fake Notifications", " Modal Windows", " Float Menu", " Bubble Menu",
+                " Countdowns"
+            ],
+            "Variable4": ["WordPress plugin", " jQuery"],
+            "Variable5": [],
+            "Amount": ["1000", "25000"],
+            "Content": "<p><strong>[variable1]<\/strong> from [variable2] has just win <span style=\"color: #ffd700;\"><strong>$[amount]<\/strong><\/span><\/p>",
+            "Show": ["random", "3", "8"],
+            "Close": "7",
+            "AnimationEffectOpen": "rotateIn",
+            "AnimationEffectClose": "zoomOut",
+            "Number": "5",
+            "Link": ["false", "", "_self", "false"],
+            "CloseButton": "false"
+        };
+        var notification_4 = {
+            "Variable1": ["David", "John", "Paul", "Mark", "James", "Andrew", "Scott", "Steven", "Robert",
+                "Stephen", "William", "Craig", "Michael", "Stuart", "Christopher", "Alan", "Colin", "Brian",
+                "Kevin", "Gary", "Richard", "Derek", "Martin", "Thomas", "Neil", "Barry", "Ian", "Jason",
+                "Iain", "Gordon", "Alexander", "Graeme", "Peter", "Darren", "Graham", "George", "Kenneth",
+                "Allan", "Simon", "Douglas", "Keith", "Lee", "Anthony", "Grant", "Ross", "Jonathan", "Gavin",
+                "Nicholas", "Joseph", "Stewart", "Daniel", "Edward", "Matthew", "Donald", "Fraser", "Garry",
+                "Malcolm", "Charles", "Duncan", "Alistair", "Raymond", "Philip", "Ronald", "Ewan", "Ryan",
+                "Francis", "Bruce", "Patrick", "Alastair", "Bryan", "Marc", "Jamie", "Hugh", "Euan", "Gerard",
+                "Sean", "Wayne", "Adam", "Calum", "Alasdair", "Robin", "Greig", "Angus", "Russell", "Cameron",
+                "Roderick", "Norman", "Murray", "Gareth", "Dean", "Eric", "Adrian", "Gregor", "Samuel",
+                "Gerald", "Henry", "Justin", "Benjamin", "Shaun", "Callum", "Campbell", "Frank", "Roy",
+                "Timothy", "Glen", "Marcus", "Hamish", "Niall", "Barrie", "Liam", "Brendan", "Terence", "Greg",
+                "Leslie", "Lindsay", "Trevor", "Vincent", "Christian", "Lewis", "Rory", "Antony", "Fergus",
+                "Roger", "Arthur", "Dominic", "Ewen", "Jon", "Owen", "Gregory", "Jeffrey", "Terry", "Damian",
+                "Geoffrey", "Harry", "Walter", "Bernard", "Desmond", "Jack", "Aaron", "Archibald", "Blair",
+                "Jeremy", "Nathan", "Alister", "Dale", "Dylan", "Glenn", "Julian", "Leon", "Allen", "Martyn",
+                "Nigel", "Alisdair", "Denis", "Drew", "Evan", "Phillip", "Frazer", "Guy", "Laurence",
+                "Lawrence", "Magnus", "Crawford", "Finlay", "Frederick", "Gregg", "Karl", "Kerr", "Mohammed",
+                "Rodney", "Victor", "Carl", "Daryl", "Don", "Edwin", "Erik", "Grahame", "Ivan", "Kyle", "Leigh",
+                "Lorne", "Maurice", "Murdo", "Nicolas", "Steve", "Allister", "Clark", "Darran", "Dennis",
+                "Elliot", "Leonard", "Nairn", "Scot", "Stefan", "Toby", "Warren", "Billy", "Clive", "Damien",
+                "Louis", "Mohammad", "Neill", "Noel", "Ralph", "Sandy", "Albert", "Alun", "Brett", "Clifford",
+                "Eoin", "Glyn", "Imran", "Ivor", "Johnathan", "Kevan", "Neal", "Oliver", "Robbie", "Roland",
+                "Stanley", "Aidan", "Antonio", "Austin", "Bradley", "Cornelius", "Darrin", "Derrick", "Innes",
+                "Kristian", "Lachlan", "Mathew", "Moray", "Nicol", "Shane", "Tony", "Brent", "Findlay",
+                "Forbes", "Gilbert", "Giles", "Jay", "Kelvin", "Leighton", "Marco", "Omar", "Roddy", "Tom",
+                "Abdul", "Alfred", "Alick", "Ashley", "Bryce", "Conrad", "Darryl", "Eugene", "Harold", "Harvey",
+                "Hector", "Jody", "Kieran", "Kirk", "Kris", "Marshall", "Muhammad", "Ramsay", "Ray", "Rodger",
+                "Seumas", "Tommy", "Wai", "Alex", "Ali", "Andrea", "Archie", "Daren", "Derick", "Gideon", "Jan",
+                "Juan", "Kerry", "Kieron", "Luke", "Lyall", "Manus", "Marvin", "Morgan", "Muir", "Myles",
+                "Ronnie", "Rowan", "Rupert", "Spencer", "Stephan", "Struan", "Torquil", "Wallace", "Aftab",
+                "Alain", "Alec", "Alvin", "Anton", "Arran", "Arron", "Austen", "Aynsley", "Benedict", "Chad",
+                "Chun", "Clarke", "Damon", "Danny", "Darron", "Declan", "Deryck", "Edmond", "Edmund", "Jacob",
+                "Johnston", "Keiron", "Kennedy", "Khalil", "Kristofer", "Laurie", "Lloyd", "Mario", "Max",
+                "Maxwell", "Mitchell", "Morris", "Nathaniel", "Naveed", "Neville", "Nickolas", "Piers",
+                "Quentin", "Rennie", "Reuben", "Riccardo", "Roberto", "Ruaraidh", "Ruaridh", "Stefano", "Symon",
+                "Tobias", "Todd", "Abid", "Adnan", "Aeneas", "Aiden", "Ainslie", "Ajay", "Alessandro", "Alyn",
+                "Anderson", "Andre", "Ashok", "Asif", "Atholl", "Bjorn", "Brandon", "Brydon", "Bryn", "Caine",
+                "Calvin", "Carlo", "Ceri", "Chris", "Christien", "Claudio", "Clayton", "Clint", "Connell",
+                "Cyril", "Damion", "Darin", "Dario", "Darroch", "Deryk", "Dirk", "Donovan", "Dustin", "Eamonn",
+                "Edgar", "Elliott", "Elton", "Emlyn", "Eoghan", "Erlend", "Farooq", "Garth", "Geoff", "Gerrard",
+                "Gerry", "Giancarlo", "Gidon", "Grierson", "Hamilton", "Hans", "Hendry", "Howard", "Irvine",
+                "Jaimie", "Jarad", "Jayson", "Jean", "Jeff", "Jerome", "Joel", "Jude", "Kane", "Karan", "Karim",
+                "Kashif", "Keiran", "Kendon", "Kent", "Kwok", "Laith", "Lauchlan", "Leo", "Leyton", "Lindsey",
+                "Logan", "Lorn", "Lyle", "Mason", "Mervyn", "Michel", "Mubarak", "Mungo", "Murdoch",
+                "Nathanael", "Neall", "Nickie", "Nicky", "Nikki", "Nikolas", "Paolo", "Perry", "Ranald",
+                "Rehan", "Ricky", "Rikki", "Ritchie", "Rizwan", "Robertson", "Roderic", "Rolf", "Ronan",
+                "Rowland", "Sam", "Scotland", "Seth", "Shahid", "Shakeel", "Sidney", "Sinclair", "Sonny",
+                "Taylor", "Tin", "Tomas", "Travis", "Tristan", "Vernon", "Vince", "Waheed", "Waseem", "Wei",
+                "Wilson", "Yan", "Zak", "Aamir", "Abdullahi", "Abdulrazak", "Abraham", "Adebayo", "Adel\r\n"
+            ],
+            "Variable2": ["New York", "Los Angeles", "Chicago ", "Houston ", "Phoenix ", "Philadelphia ",
+                "San Antonio ", "San Diego ", "Dallas ", "San Jose ", "Detroit ", "Jacksonville ",
+                "Indianapolis", "San Francisco ", "Columbus ", "Austin ", "Memphis ", "Fort Worth ",
+                "Baltimore ", "Charlotte ", "El Paso ", "Boston ", "Seattle ", "Washington ", "Milwaukee ",
+                "Denver ", "Louisville\/Jefferson County ", "Las Vegas ", "Nashville-Davidson ",
+                "Oklahoma City ", "Portland ", "Tucson ", "Albuquerque ", "Atlanta ", "Long Beach ", "Fresno ",
+                "Sacramento ", "Mesa ", "Kansas City ", "Cleveland ", "Virginia Beach ", "Omaha ", "Miami ",
+                "Oakland ", "Tulsa ", "Honolulu ", "Minneapolis ", "Colorado Springs ", "Arlington ",
+                "Wichita ", "Raleigh ", "St. Louis ", "Santa Ana ", "Anaheim ", "Tampa ", "Cincinnati ",
+                "Pittsburgh ", "Bakersfield ", "Aurora ", "Toledo ", "Riverside ", "Stockton ",
+                "Corpus Christi ", "Newark ", "Anchorage", "Buffalo ", "St. Paul ", "Lexington-Fayette",
+                "Plano ", "Fort Wayne ", "St. Petersburg ", "Glendale ", "Jersey City ", "Lincoln ",
+                "Henderson ", "Chandler ", "Greensboro ", "Scottsdale ", "Baton Rouge ", "Birmingham ",
+                "Norfolk ", "Madison ", "New Orleans ", "Chesapeake ", "Orlando ", "Garland ", "Hialeah ",
+                "Laredo ", "Chula Vista ", "Lubbock ", "Reno ", "Akron ", "Durham ", "Rochester ", "Modesto ",
+                "Montgomery ", "Fremont ", "Shreveport ", "Arlington", "Glendale\r\n"
+            ],
+            "Variable3": ["Facebook", " Google", " Twitter", " LinkedIn"],
+            "Variable4": ["WordPress plugin", " jQuery"],
+            "Variable5": [],
+            "Amount": ["1000", "25000"],
+            "Content": "<p><u>[variable1]<\/u> from <strong>[variable2]<\/strong> registered on the site via\u0412 <em><strong>[variable3]<\/strong><\/em><\/p>",
+            "Show": ["random", "3", "12"],
+            "Close": "7",
+            "AnimationEffectOpen": "slideInUp",
+            "AnimationEffectClose": "slideOutDown",
+            "Number": "3",
+            "Link": ["false", "", "_self", "false"],
+            "CloseButton": "false"
+        };
+    </script>
+    <script src='script.min.js' id='wow-herd-effects-pro-js'></script>
+    <script id='wow-herd-effects-pro-js-after'>
+        jQuery("#notification-1").Notification(notification_1);
+        jQuery("#notification-2").Notification(notification_2);
+        jQuery("#notification-3").Notification(notification_3);
+        jQuery("#notification-4").Notification(notification_4);
+    </script>
+
+</body>
+
+</html>
